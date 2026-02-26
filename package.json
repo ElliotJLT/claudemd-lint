@@ -1,0 +1,36 @@
+{
+  "name": "claudemd-lint",
+  "version": "0.1.0",
+  "description": "Lint your CLAUDE.md files. Catch vague rules, bloated configs, and instructions that should be hooks.",
+  "type": "module",
+  "bin": {
+    "claudemd-lint": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claudemd",
+    "linter",
+    "hooks"
+  ],
+  "author": "Elliot Zagoria-Leung",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.0.0"
+  }
+}
