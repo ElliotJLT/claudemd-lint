@@ -1,5 +1,7 @@
 # claudemd-lint
 
+[![GitHub](https://img.shields.io/github/license/ElliotJLT/claudemd-lint)](https://github.com/ElliotJLT/claudemd-lint)
+
 Lint your `CLAUDE.md` files. Catch vague rules, bloated configs, and instructions that should be hooks.
 
 ```
